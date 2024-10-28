@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GestionListeners</string>
+    <string name="m_todo_implements">Método implements</string>
+    <string name="clase_3_en_1">Clase 3 en 1</string>
+    <string name="clase_anonima">Clase Anonima</string>
+    <string name="clase_interna">Clase Interna</string>
+    <string name="prueba_listeners">PRUEBA LISTENERS</string>
+</resources>

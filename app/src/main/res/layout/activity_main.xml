@@ -7,39 +7,33 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <TextView
+    <Button
+        android:id="@+id/btn_act_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/prueba_listeners"
-        android:layout_marginBottom="10dp"/>
+        android:text="@string/abrir_act_2"/>
 
     <Button
-        android:id="@+id/btn_interna"
+        android:id="@+id/btn_act_2_depre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/clase_interna"/>
+        android:text="@string/abrir_act_2_no_deprecated"/>
 
     <Button
-        android:id="@+id/btn_anonima"
+        android:id="@+id/btn_camara"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/clase_anonima"/>
+        android:text="@string/abrir_camara"/>
 
     <Button
-        android:id="@+id/btn_3en1"
+        android:id="@+id/btn_camara_depre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/clase_3_en_1"/>
-
-    <Button
-        android:id="@+id/btn_implements"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/m_todo_implements"/>
+        android:text="@string/abrir_camara_no_deprecated"/>
 
     <TextView
         android:id="@+id/tvRespuesta"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

@@ -5,4 +5,10 @@
     <string name="clase_anonima">Clase Anonima</string>
     <string name="clase_interna">Clase Interna</string>
     <string name="prueba_listeners">PRUEBA LISTENERS</string>
+    <string name="abrir_act_2">Abrir act 2</string>
+    <string name="abrir_act_2_no_deprecated">abrir act 2 no deprecated</string>
+    <string name="abrir_camara">abrir camara</string>
+    <string name="abrir_camara_no_deprecated">abrir camara no deprecated</string>
+    <string name="activity_2">ACTIVITY 2</string>
+    <string name="volver">Volver</string>
 </resources>

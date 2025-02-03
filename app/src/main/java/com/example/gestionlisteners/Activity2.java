@@ -9,6 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Activity2 extends AppCompatActivity {
 
+    public static final String ACTIVITY_RES_MSG = "mensaje";
+
     private Button btn_volver;
     private TextView tv_salida;
 

@@ -16,6 +16,9 @@ public class MainActivity extends AppCompatActivity {
 
     TextView tvRespuesta;
     Button btn_act_2_depre, btn_camara, btn_act_2, btn_camara_depre;
+
+    // LÓGICA DEL BOTÓN UNO - ABRIR ACTIVITY 2 CON UN MÉTODO NO DEPRECATED
+
     ActivityResultLauncher<Intent> intentCallAct2;
 
     @Override
@@ -52,15 +55,13 @@ public class MainActivity extends AppCompatActivity {
         // LÓGICA DEL BOTÓN TRES - ABRIR CÁMARA CON UN MÉTODO NO DEPRECATED
 
         btn_camara.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this, Activity2.class);
-            startActivity(intent);
+            // hacer algo
         });
 
         // LÓGICA DEL CUATRO TRES - ABRIR CÁMARA CON UN MÉTODO DEPRECATED
 
         btn_camara_depre.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this, Activity2.class);
-            startActivity(intent);
+            // hacer algo
         });
     }
 
